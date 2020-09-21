@@ -11,6 +11,8 @@ This directory contains some templates for the use of my students.
 This is a hacked version of a BibTeX bibliographic style, which also typesets the BibTeX fields URL, DoI and arXiv.
 The contents of these fields is piped into TeX macros \bibformatURL, \bibformatDoI and \bibformatArXiv, which further format the entries.
 
+For maintaining the bib files, I use a Jabref instance where I have added these three fields as custom fields.
+
 My way of defining these macros is reflected in the following code snippet which I use in most of my recent TeX files. It is assumed
 that the hyperref package is loaded.
 
